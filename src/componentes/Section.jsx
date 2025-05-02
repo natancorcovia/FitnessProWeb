@@ -1,7 +1,7 @@
 export default function Section({ title, subtitle, description, src, imgsize, reverse }){
     return(
     <>
-    <div>
+    <div className="mb-[150px]">
         <section className={`flex items-center justify-between p-10 ${reverse ? 'flex-row-reverse' : ''}`}>
             <div className="text-white font-[Poppins] w-[560px]" >
 

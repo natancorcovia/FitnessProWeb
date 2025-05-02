@@ -3,7 +3,7 @@ import logo from "../imagens/logo.png";
 export default function Header(){
     return(
     <>
-        <div className="flex items-center justify-between max-w-6xl mb-[70px]">
+        <div className="flex items-center justify-between max-w-6xl ">
             <div>
                 <img src={logo} alt="Logo FitnessPro" className="w-45 h-auto pt-1" />
             </div>
