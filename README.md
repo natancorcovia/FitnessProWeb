@@ -3,35 +3,35 @@ Este repositório contém uma página web de apresentação para um app fitness,
 
 
 🎯 Objetivos do Projeto
-Treinar a construção de páginas React com componentes reutilizáveis;
+- Treinar a construção de páginas React com componentes reutilizáveis;
 
-Explorar o uso de props para customização de conteúdo;
+- Explorar o uso de props para customização de conteúdo;
 
-Criar uma interface de marketing simples para um app fictício de fitness;
+- Criar uma interface de marketing simples para um app fictício de fitness;
 
-Utilizar imagens, estrutura modular e estilização moderna.
+- Utilizar imagens, estrutura modular e estilização moderna.
 
 
 🧩 Funcionalidades e Estrutura
 A página é composta por:
 
-Header: Cabeçalho da página com branding ou navegação.
+- Header: Cabeçalho da página com branding ou navegação.
 
-Sections: Três seções principais com textos e imagens para promover o app.
+- Sections: Três seções principais com textos e imagens para promover o app.
 
-Partners: Componente visual representando marcas parceiras.
+- Partners: Componente visual representando marcas parceiras.
 
-Footer: Rodapé com informações adicionais.
+- Footer: Rodapé com informações adicionais.
 
  
 🛠️ Tecnologias Utilizadas
 React.js
 
-Vite
+- Vite
 
-Tailwind CSS
+- Tailwind CSS
 
-Estrutura de componentes reutilizáveis
+- Estrutura de componentes reutilizáveis
 
 
 📌 Status do Projeto
