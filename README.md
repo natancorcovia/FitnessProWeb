@@ -40,18 +40,5 @@ Tailwind CSS
 
 Estrutura de componentes reutilizáveis
 
-📁 Estrutura de Pastas
-
-src/
-├── componentes/
-│   ├── Header.jsx
-│   ├── Section.jsx
-│   ├── Partners.jsx
-│   └── Footer.jsx
-├── imagens/
-│   └── imagens.js
-├── App.jsx
-└── main.jsx
-
 📌 Status do Projeto
 ✅ Projeto em desenvolvimento, com foco educacional e demonstrativo.
