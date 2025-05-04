@@ -1,6 +1,6 @@
 import { athlene } from "../imagens/imagens"
 
-export default function footer(){
+export default function Testimonials(){
     return(
         <>
         <div>

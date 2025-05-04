@@ -1,8 +1,8 @@
-import { img1, img2, img3 } from "../src/imagens/imagens";
+import { img1, img2, img3, img4 } from "../src/imagens/imagens";
 import Header from "./componentes/Header";
 import Section from "./componentes/Section";
 import Partners from "./componentes/Partners";
-import Footer from "./componentes/Footer";
+import Testimonials from "./componentes/Testmonials";
 
 function App() {
   return (
@@ -33,7 +33,14 @@ function App() {
         reverse
       />
 
-      <Footer />
+      <Testimonials />
+
+      <Section 
+        title="All your workouts, in your pocket."
+        description="FitnessPro helps track your workouts, get better results, and be best version of you. Less thinking!"
+        src={img4}
+        imgsize={"w-[510px]"}
+      />
     </div>
   );
 }
