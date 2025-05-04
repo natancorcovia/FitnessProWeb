@@ -35,4 +35,4 @@ React.js
 
 
 📌 Status do Projeto
-✅ Projeto em desenvolvimento, com foco educacional e demonstrativo.
+🛠 Projeto em desenvolvimento
