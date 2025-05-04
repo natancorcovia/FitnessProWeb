@@ -24,7 +24,7 @@ A página é composta por:
 - Footer: Rodapé com informações adicionais.
 
  
-🛜 Tecnologias Utilizadas
+📌 Tecnologias Utilizadas
 React.js
 
 - Vite
