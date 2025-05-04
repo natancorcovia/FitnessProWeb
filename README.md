@@ -34,5 +34,4 @@ React.js
 - Estrutura de componentes reutilizáveis
 
 
-📌 Status do Projeto
 🛠 Projeto em desenvolvimento
