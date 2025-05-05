@@ -43,13 +43,15 @@ function App() {
         imgsize={"w-[510px]"}
       />
 
-      <Insights 
+      {/*<Insights 
       img={users}
       title="1m"
       subtitle="Happy Users"
       description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
-      />
+      />**/}
     </div>
   );
 }   
 export default App;
+
+      
