@@ -1,8 +1,9 @@
-import { img1, img2, img3, img4 } from "../src/imagens/imagens";
+import { img1, img2, img3, img4 , users } from "../src/imagens/imagens";
 import Header from "./componentes/Header";
 import Section from "./componentes/Section";
 import Partners from "./componentes/Partners";
 import Testimonials from "./componentes/Testmonials";
+import Insights from "./componentes/Insights";
 
 function App() {
   return (
@@ -41,7 +42,14 @@ function App() {
         src={img4}
         imgsize={"w-[510px]"}
       />
+
+      <Insights 
+      img={users}
+      title="1m"
+      subtitle="Happy Users"
+      description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
+      />
     </div>
   );
-}
+}   
 export default App;

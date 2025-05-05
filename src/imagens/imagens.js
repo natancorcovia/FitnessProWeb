@@ -6,6 +6,7 @@ import img4 from "../imagens/img4.png"
 import athlene from "../imagens/athlene.png"
 import staminus from "../imagens/staminus.png"
 import sportrix from "../imagens/sportrix.png"
+import users from "../imagens/icon_user.png"
 
 export {
     logo,
@@ -16,4 +17,5 @@ export {
     athlene,
     staminus,
     sportrix,
+    users,
 };
