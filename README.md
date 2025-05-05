@@ -24,7 +24,7 @@ A página é composta por:
 - Footer: Rodapé com informações adicionais.
 
  
-🛠️ Tecnologias Utilizadas
+📌 Tecnologias Utilizadas
 React.js
 
 - Vite
@@ -34,5 +34,4 @@ React.js
 - Estrutura de componentes reutilizáveis
 
 
-📌 Status do Projeto
-✅ Projeto em desenvolvimento, com foco educacional e demonstrativo.
+🛠 Projeto em desenvolvimento
