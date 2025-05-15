@@ -26,6 +26,8 @@ function App() {
         imgsize={"w-[520px]"}
       />
 
+      <Testimonials />
+
       <Section
         title="Track your progress, lift smart."
         description="Track your workouts easily, see real improvements, and reach youur fitness goals faster with less effort."
@@ -34,7 +36,12 @@ function App() {
         reverse
       />
 
-      <Testimonials />
+      <Insights 
+      img={users}
+      title="1m"
+      subtitle="Happy Users"
+      description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
+      />
 
       <Section 
         title="All your workouts, in your pocket."
@@ -42,13 +49,6 @@ function App() {
         src={img4}
         imgsize={"w-[510px]"}
       />
-
-      {/*<Insights 
-      img={users}
-      title="1m"
-      subtitle="Happy Users"
-      description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
-      />**/}
     </div>
   );
 }   
