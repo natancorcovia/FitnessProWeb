@@ -14,7 +14,7 @@ function App() {
         subtitle="TRAIN SMARTER, GET STRONGER"
         description="Track your workouts, get better results, and be best versionof you, Less thiking, more lifting."
         src={img1}
-        imgsize={"w-[720px]"}
+        imgsize={"w-[1200px]"}
       />
 
       <Partners/>
