@@ -7,6 +7,9 @@ import athlene from "../imagens/athlene.png"
 import staminus from "../imagens/staminus.png"
 import sportrix from "../imagens/sportrix.png"
 import users from "../imagens/icon_user.png"
+import download from "../imagens/icon_download.png"
+import flag from "../imagens/icon_flag.png"
+import facebook from "../imagens/icon_facebook.png"
 
 export {
     logo,
@@ -18,4 +21,7 @@ export {
     staminus,
     sportrix,
     users,
+    download,
+    flag,
+    facebook,
 };

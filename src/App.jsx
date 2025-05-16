@@ -1,4 +1,4 @@
-import { img1, img2, img3, img4 , users } from "../src/imagens/imagens";
+import { img1, img2, img3, img4 , users , download, flag , facebook } from "../src/imagens/imagens";
 import Header from "./componentes/Header";
 import Section from "./componentes/Section";
 import Partners from "./componentes/Partners";
@@ -17,7 +17,9 @@ function App() {
         imgsize={"w-[460px] max-w-none h-auto"}
       />
 
-      <Partners/>
+      <div className="mt-[40px] mb-[150px]">
+      <Testimonials />
+      </div>
 
       <Section
         title="Train smarter, get strong."
@@ -26,16 +28,18 @@ function App() {
         imgsize={"w-[520px]"}
       />
 
-      <Testimonials />
+      <div className="mt-[80px] mb-[80px]">
+      <Partners />
+      </div>
 
       <Section
         title="Track your progress, lift smart."
         description="Track your workouts easily, see real improvements, and reach youur fitness goals faster with less effort."
         src={img3}
-        imgsize={"w-[510px]"}
+        imgsize={"w-[400px]"}
         reverse
       />
-
+      <div className="flex justify-around px-10 py-10 bg-black text-white mt-10">
       <Insights 
       img={users}
       title="1m"
@@ -43,6 +47,28 @@ function App() {
       description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
       />
 
+      <Insights 
+      img={download}
+      title="1.2m"
+      subtitle="Downloads"
+      description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
+      />
+
+      <Insights 
+      img={flag}
+      title="50+"
+      subtitle="Countries"
+      description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
+      />
+
+      <Insights 
+      img={users}
+      title="900k+"
+      subtitle="Likes on Facebook"
+      description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
+      />
+      </div>
+      
       <Section 
         title="All your workouts, in your pocket."
         description="FitnessPro helps track your workouts, get better results, and be best version of you. Less thinking!"
