@@ -1,3 +1,5 @@
+//Logo do App
+
 import logo from "../imagens/logo.png";
 
 export default function Logo() {

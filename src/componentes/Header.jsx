@@ -8,7 +8,7 @@ export default function Header(){
                 <img src={logo} alt="Logo FitnessPro" className="w-45 h-auto pt-1" />
             </div>
             <nav className="flex-1 flex justify-center">
-                <ul class="flex list-none gap-7 text-base text-[#5C5A5A] font-bold">
+                <ul class="flex list-none gap-6 text-base text-[#5C5A5A] font-bold">
                     <li><a href="#" class="hover:text-white transition duration-200">How it works</a></li>
                     <li><a href="#" class="hover:text-white transition duration-200">Features</a></li>
                     <li><a href="#" class="hover:text-white transition duration-200">Stats & Reviews</a></li>
