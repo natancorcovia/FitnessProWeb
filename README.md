@@ -1,8 +1,8 @@
 🏋️‍♀️ Fitness App Web — Página de Apresentação
 Este repositório contém uma página web de apresentação para um app fitness, desenvolvida com React.js. O principal objetivo do projeto é praticar conceitos fundamentais de React, incluindo componentização, propriedades (props), e estruturação de interface responsiva.
 
-
 🎯 Objetivos do Projeto
+
 - Treinar a construção de páginas React com componentes reutilizáveis;
 
 - Explorar o uso de props para customização de conteúdo;
@@ -10,7 +10,6 @@ Este repositório contém uma página web de apresentação para um app fitness,
 - Criar uma interface de marketing simples para um app fictício de fitness;
 
 - Utilizar imagens, estrutura modular e estilização moderna.
-
 
 🧩 Funcionalidades e Estrutura
 A página é composta por:
@@ -23,7 +22,6 @@ A página é composta por:
 
 - Footer: Rodapé com informações adicionais.
 
- 
 📌 Tecnologias Utilizadas
 React.js
 
@@ -32,6 +30,5 @@ React.js
 - Tailwind CSS
 
 - Estrutura de componentes reutilizáveis
-
 
 🛠 Projeto em desenvolvimento

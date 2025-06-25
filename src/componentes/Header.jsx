@@ -1,29 +1,50 @@
 import logo from "../imagens/logo.png";
 
-export default function Header(){
-    return(
+export default function Header() {
+  return (
     <>
-        <div className="flex items-center justify-between max-w-6xl ">
-            <div className="w-1/4">
-                <img src={logo} alt="Logo FitnessPro" className="w-45 h-auto pt-1" />
-            </div>
-            <nav className="flex-1 flex justify-center">
-                <ul class="flex list-none gap-6 text-base text-[#5C5A5A] font-bold">
-                    <li><a href="#" class="hover:text-white transition duration-200">How it works</a></li>
-                    <li><a href="#" class="hover:text-white transition duration-200">Features</a></li>
-                    <li><a href="#" class="hover:text-white transition duration-200">Stats & Reviews</a></li>
-                    <li><a href="#" class="hover:text-white transition duration-200">Download</a></li>
-                </ul>
-            </nav>
-            <div className="w-1/4 flex justify-end gap-4">
-                <button className="px-3 py-1 border-2 border-white text-white font-semibold rounded-2xl hover:bg-zinc-800 transition duration-200">
-                    Sign-up
-                </button>
-                <button className="px-3 py-1 bg-[#E94A2B] text-white font-semibold rounded-2xl hover:bg-red-950 transition duration-200">
-                    Login
-                </button>
-            </div>
+      {/* Logotipo à esquerda */}
+      <div className="flex max-w-6xl items-center justify-between">
+        <div className="w-1/4">
+          <img src={logo} alt="Logo FitnessPro" className="w-45 h-auto pt-1" />
         </div>
+
+        {/* Botoes de navegacao */}
+        <nav className="flex flex-1 justify-center">
+          <ul class="flex list-none gap-6 text-base font-bold text-[#5C5A5A]">
+            <li>
+              <a href="#" class="transition duration-200 hover:text-white">
+                How it works
+              </a>
+            </li>
+            <li>
+              <a href="#" class="transition duration-200 hover:text-white">
+                Features
+              </a>
+            </li>
+            <li>
+              <a href="#" class="transition duration-200 hover:text-white">
+                Stats & Reviews
+              </a>
+            </li>
+            <li>
+              <a href="#" class="transition duration-200 hover:text-white">
+                Download
+              </a>
+            </li>
+          </ul>
+        </nav>
+
+        {/* Botoes de cadastro e login */}
+        <div className="flex w-1/4 justify-end gap-4">
+          <button className="rounded-2xl border-2 border-white px-3 py-1 font-semibold text-white transition duration-200 hover:bg-zinc-800">
+            Sign-up
+          </button>
+          <button className="rounded-2xl bg-[#E94A2B] px-3 py-1 font-semibold text-white transition duration-200 hover:bg-red-950">
+            Login
+          </button>
+        </div>
+      </div>
     </>
-);
+  );
 }
