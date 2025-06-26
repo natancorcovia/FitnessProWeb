@@ -6,7 +6,7 @@ export default function Header() {
       {/* Logotipo à esquerda */}
       <div className="flex max-w-6xl items-center justify-between">
         <div className="w-1/4">
-          <img src={logo} alt="Logo FitnessPro" className="w-45 h-auto pt-1" />
+          <img src={logo} alt="Logo FitnessPro" className="h-auto w-48 pt-1" />
         </div>
 
         {/* Botoes de navegacao */}
