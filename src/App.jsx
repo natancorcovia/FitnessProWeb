@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Section
+      {/* <Section
         title="Simple fitness experience for everyone."
         subtitle="TRAIN SMARTER, GET STRONGER"
         description="Track your workouts, get better results, and be best versionof you, Less thiking, more lifting."
@@ -61,9 +61,9 @@ function App() {
           title="1.2m"
           subtitle="Downloads"
           description="Stacks is a production-readylibrary of stackable content blocks built in React Native."
-        />
+        /> */}
 
-        <Insights
+      {/* <Insights
           img={flag}
           title="50+"
           subtitle="Countries"
@@ -83,7 +83,7 @@ function App() {
         description="FitnessPro helps track your workouts, get better results, and be best version of you. Less thinking!"
         src={img4}
         imgsize={"w-[510px]"}
-      />
+      /> */}
     </div>
   );
 }
