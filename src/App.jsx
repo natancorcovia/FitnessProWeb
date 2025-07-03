@@ -18,7 +18,8 @@ function App() {
   return (
     <div>
       <Header />
-      {/* <Section
+
+      <Section
         title="Simple fitness experience for everyone."
         subtitle="TRAIN SMARTER, GET STRONGER"
         description="Track your workouts, get better results, and be best versionof you, Less thiking, more lifting."
@@ -26,11 +27,9 @@ function App() {
         imgsize={"w-[460px] max-w-none h-auto"}
       />
 
-      <div className="mb-[150px] mt-[40px]">
-        <Testimonials />
-      </div>
+      {/* <Testimonials /> */}
 
-      <Section
+      {/*<Section
         title="Train smarter, get strong."
         description="Fitness Pro helps track your workouts, get better results, and be best versionof you, Less thiking, more lifting 🔥🏀"
         src={img2}
