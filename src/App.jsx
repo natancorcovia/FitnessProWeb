@@ -27,7 +27,7 @@ function App() {
         imgsize={"w-[460px] max-w-none h-auto"}
       />
 
-      {/* <Testimonials /> */}
+      <Testimonials />
 
       {/*<Section
         title="Train smarter, get strong."
