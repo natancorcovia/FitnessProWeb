@@ -1,34 +1,47 @@
-🏋️‍♀️ Fitness App Web — Página de Apresentação
-Este repositório contém uma página web de apresentação para um app fitness, desenvolvida com React.js. O principal objetivo do projeto é praticar conceitos fundamentais de React, incluindo componentização, propriedades (props), e estruturação de interface responsiva.
+# 🏋️‍♀️ Fitness App Web — Landing Page
 
-🎯 Objetivos do Projeto
+Este repositório contém a **landing page** de apresentação para um aplicativo fitness fictício, desenvolvida com **React.js**, **Vite** e **Tailwind CSS**. O projeto tem como foco a prática de conceitos fundamentais do React, como componentização, uso de props e criação de interfaces responsivas e modernas.
 
-- Treinar a construção de páginas React com componentes reutilizáveis;
+---
 
-- Explorar o uso de props para customização de conteúdo;
+## 📸 Preview
 
-- Criar uma interface de marketing simples para um app fictício de fitness;
+🔗 Acesse o projeto online: [https://fitness-pro-web.vercel.app/](src/assets/preview01.png)
 
-- Utilizar imagens, estrutura modular e estilização moderna.
+---
 
-🧩 Funcionalidades e Estrutura
-A página é composta por:
+## 🎯 Objetivos
 
-- Header: Cabeçalho da página com branding ou navegação.
+- Praticar a construção de páginas React com componentes reutilizáveis
+- Aprimorar o uso de props para personalização de conteúdo
+- Criar uma interface visual simples e atrativa para promover um app fitness
+- Explorar boas práticas de estruturação, estilização e modularização em projetos front-end
 
-- Sections: Três seções principais com textos e imagens para promover o app.
+---
 
-- Partners: Componente visual representando marcas parceiras.
+## 🧩 Estrutura da Página
 
-- Footer: Rodapé com informações adicionais.
+A landing page é composta pelos seguintes componentes:
 
-📌 Tecnologias Utilizadas
-React.js
+- **Header**: Cabeçalho com logotipo e links de navegação
+- **Sections**: Três seções com textos e imagens destacando os benefícios do app
+- **Partners**: Área com logos de marcas parceiras fictícias
+- **Footer**: Rodapé com informações complementares
 
-- Vite
+---
 
-- Tailwind CSS
+## 🛠 Tecnologias e Ferramentas
 
-- Estrutura de componentes reutilizáveis
+- **React.js** — Biblioteca para construção da interface
+- **Vite** — Empacotador leve e rápido para projetos React
+- **Tailwind CSS** — Framework utilitário para estilização moderna
+- **Componentização** — Organização baseada em componentes reutilizáveis
 
-🛠 Projeto em desenvolvimento
+---
+
+## 🚧 Status do Projeto
+
+🔧 Em desenvolvimento  
+Funcionalidades e ajustes visuais ainda estão sendo aprimorados.
+
+---
