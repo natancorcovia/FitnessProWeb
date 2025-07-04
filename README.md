@@ -6,7 +6,7 @@ Este repositório contém a **landing page** de apresentação para um aplicativ
 
 ## 📸 Preview
 
-🔗 Acesse o projeto online: [https://fitness-pro-web.vercel.app/](src/assets/preview01.png)
+(src/assets/preview01.png)
 
 ---
 
