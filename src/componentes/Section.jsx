@@ -3,6 +3,7 @@ export default function newSection({
   subtitle,
   description,
   src,
+  imgsize,
   reverse,
 }) {
   return (
@@ -34,7 +35,7 @@ export default function newSection({
           </div>
 
           <div className="flex w-screen justify-center md:w-1/2 lg:w-full lg:justify-end">
-            <img src={src} className="md:max-w-md md:pb-16 lg:pb-0" />
+            <img src={src} className={`md:pb-16 lg:pb-0 ${imgsize}`} />
           </div>
         </section>
       </div>

@@ -24,23 +24,21 @@ function App() {
         subtitle="TRAIN SMARTER, GET STRONGER"
         description="Track your workouts, get better results, and be best versionof you, Less thiking, more lifting."
         src={img1}
-        imgsize={"w-[460px] max-w-none h-auto"}
+        imgsize={"md:max-w-lg"}
       />
 
       <Testimonials />
 
-      {/*<Section
+      <Section
         title="Train smarter, get strong."
         description="Fitness Pro helps track your workouts, get better results, and be best versionof you, Less thiking, more lifting 🔥🏀"
         src={img2}
-        imgsize={"w-[520px]"}
+        imgsize={"md:max-w-md"}
       />
 
-      <div className="mb-[80px] mt-[80px]">
-        <Partners />
-      </div>
+      <Partners />
 
-      <Section
+      {/*<Section
         title="Track your progress, lift smart."
         description="Track your workouts easily, see real improvements, and reach youur fitness goals faster with less effort."
         src={img3}
