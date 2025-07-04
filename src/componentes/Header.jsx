@@ -1,4 +1,4 @@
-import logo from "../imagens/logo.png";
+import logo from "../assets/logo.png";
 
 export default function NewHeader() {
   return (
@@ -8,20 +8,17 @@ export default function NewHeader() {
           <img src={logo} alt="" className="max-w-full" />
         </div>
         <div className="hidden justify-center lg:flex">
-          <ul className="flex list-none items-center gap-6 text-base font-bold text-[#5C5A5A]">
-            <li href="#" class="transition duration-200 hover:text-white">
-              How it works
-            </li>
-            <li href="#" class="transition duration-200 hover:text-white">
-              Features
-            </li>
-            <li href="#" class="transition duration-200 hover:text-white">
-              {" "}
-              Stats & Reviews
-            </li>
-            <li href="#" class="transition duration-200 hover:text-white">
-              Download
-            </li>
+          <ul className="flex items-center gap-6 text-base font-bold text-[#5C5A5A]">
+            {["How it works", "Features", "Stats & Reviews", "Download"].map(
+              (item) => (
+                <li
+                  key={item}
+                  className="cursor-pointer transition duration-200 hover:text-white"
+                >
+                  {item}
+                </li>
+              ),
+            )}
           </ul>
         </div>
         <div className="hidden lg:flex">

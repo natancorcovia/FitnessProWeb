@@ -7,7 +7,7 @@ import {
   download,
   flag,
   facebook,
-} from "../src/imagens/imagens";
+} from "../src/assets/imagens";
 import Header from "./componentes/Header";
 import Section from "./componentes/Section";
 import Partners from "./componentes/Partners";

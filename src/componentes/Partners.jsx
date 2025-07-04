@@ -1,4 +1,4 @@
-import { athlene, staminus, sportrix } from "../imagens/imagens";
+import { athlene, staminus, sportrix } from "../assets/imagens";
 
 export default function Partners() {
   return (

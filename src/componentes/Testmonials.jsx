@@ -1,4 +1,4 @@
-import { athlene } from "../imagens/imagens";
+import { athlene } from "../assets/imagens";
 
 export default function Testimonials() {
   return (
