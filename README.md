@@ -6,7 +6,7 @@ Este repositório contém a **landing page** de apresentação para um aplicativ
 
 ## 📸 Preview
 
-(src/assets/preview01.png)
+![Preview da página](./assets/preview01.png)
 
 ---
 
