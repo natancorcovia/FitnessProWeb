@@ -4,12 +4,6 @@ Este repositório contém a **landing page** de apresentação para um aplicativ
 
 ---
 
-## 📸 Preview
-
-![Preview da página](src/assets/preview01.png)
-
----
-
 ## 🎯 Objetivos
 
 - Praticar a construção de páginas React com componentes reutilizáveis
@@ -45,3 +39,7 @@ A landing page é composta pelos seguintes componentes:
 Funcionalidades e ajustes visuais ainda estão sendo aprimorados.
 
 ---
+
+## 📸 Preview
+
+![Preview da página](src/assets/preview01.png)
