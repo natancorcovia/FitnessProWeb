@@ -38,14 +38,14 @@ function App() {
 
       <Partners />
 
-      {/*<Section
+      <Section
         title="Track your progress, lift smart."
         description="Track your workouts easily, see real improvements, and reach youur fitness goals faster with less effort."
         src={img3}
-        imgsize={"w-[400px]"}
+        imgsize={"md:max-w-sm"}
         reverse
       />
-      <div className="mt-10 flex justify-around bg-black px-10 py-10 text-white">
+      {/*<div className="mt-10 flex justify-around bg-black px-10 py-10 text-white">
         <Insights
           img={users}
           title="1m"

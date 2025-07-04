@@ -10,7 +10,7 @@ export default function newSection({
     <>
       <div className="sm:mt-8 sm:w-full lg:mx-auto lg:w-4/5">
         <section
-          className={`flex flex-col items-center justify-between gap-10 px-4 md:flex-row lg:ml-7 lg:flex-row lg:justify-start lg:px-0 ${reverse ? "lg:flex-row-reverse" : ""}`}
+          className={`flex flex-col items-center justify-between gap-10 px-4 md:flex-row lg:ml-7 lg:px-0 ${reverse ? "lg:flex-row-reverse" : ""}`}
         >
           <div className="w-5/6 font-[Poppins] md:w-1/2 lg:w-5/6">
             <h2 className="text-lg font-bold text-[#5C5A5A] sm:text-xl">
@@ -34,7 +34,9 @@ export default function newSection({
             </div>
           </div>
 
-          <div className="flex w-screen justify-center md:w-1/2 lg:w-full lg:justify-end">
+          <div
+            className={`flex w-screen md:w-1/2 lg:w-full ${reverse ? "justify-start lg:justify-start" : "justify-center lg:justify-end"}`}
+          >
             <img src={src} className={`md:pb-16 lg:pb-0 ${imgsize}`} />
           </div>
         </section>
